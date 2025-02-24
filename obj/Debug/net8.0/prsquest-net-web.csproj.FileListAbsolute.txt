@@ -847,3 +847,4 @@ C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\refint\prsque
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-web.pdb
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-web.genruntimeconfig.cache
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\ref\prsquest-net-web.dll
+C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-web.sourcelink.json
