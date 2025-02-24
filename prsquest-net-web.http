@@ -1,0 +1,6 @@
+@prsquest_api_controllers_HostAddress = http://localhost:5003
+
+GET {{prsquest_api_controllers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

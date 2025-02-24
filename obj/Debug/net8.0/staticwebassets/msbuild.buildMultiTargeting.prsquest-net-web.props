@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\prsquest-net-web.props" />
+</Project>
