@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,7 +12,7 @@ namespace prsquest_api_controllers.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
-    {
+    {                             
         private readonly prsquestContext _context;
 
         public UsersController(prsquestContext context)
@@ -97,6 +97,22 @@ namespace prsquest_api_controllers.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
+        }
+
+        // POST: api/Users/login
+        [HttpPost("login")]
+        public async Task<ActionResult<User>> Login(UserLoginDTO userLogin)
+        {
+            var user = await _context.Users
+                //.Where(u => u.Username == userLogin.Username && u.Password == userLogin.Password)
+                .FirstOrDefaultAsync(u => u.Username == userLogin.UserName && u.Password == userLogin.Password);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return user;
         }
 
         private bool UserExists(int id)

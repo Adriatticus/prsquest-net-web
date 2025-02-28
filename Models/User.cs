@@ -49,7 +49,7 @@ public partial class User
 
     [StringLength(50)]
     [Unicode(false)]
-    public string? Title { get; set; }
+    public string Title { get; set; }
 
     public bool Reviewer { get; set; }
 

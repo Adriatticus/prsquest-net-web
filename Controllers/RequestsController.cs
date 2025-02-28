@@ -102,6 +102,16 @@ namespace prsquest_api_controllers.Controllers
             return NoContent();
         }
 
+        // POST: api/Requests/Create
+        [HttpPost]
+        public async Task<ActionResult<Request>> PostRequestCreate(RequestCreateDTO request)
+        {
+            _context.Requests.Add(request);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetRequest", new { id = request.Id }, request);
+        }
+
         private bool RequestExists(int id)
         {
             return _context.Requests.Any(e => e.Id == id);

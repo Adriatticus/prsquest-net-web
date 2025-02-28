@@ -3,27 +3,20 @@
   "WorkspaceRootPath": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1883CA75-907A-4985-999F-2EBD60635FF2}|..\\prsquest-net-webTests\\prsquest-net-webTests.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-webtests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\controllers\\lineitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:controllers\\lineitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\models\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:models\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\models\\lineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:models\\lineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\models\\prsquestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:models\\prsquestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|solutionrelative:models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26089A39-4098-417B-8329-2D2161E2F92F}|prsquest-net-web.csproj|c:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,19 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-webTests\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "..\\prsquest-net-webTests\\MSTestSettings.cs",
-              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-webTests\\MSTestSettings.cs",
-              "RelativeToolTip": "..\\prsquest-net-webTests\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserLoginDTO.cs",
+              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\UserLoginDTO.cs*",
+              "RelativeToolTip": "Models\\UserLoginDTO.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T23:17:40.446Z",
+              "WhenOpened": "2025-02-28T05:32:05.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "Controllers\\UsersController.cs*",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwGsAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T04:15:44.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T04:10:37.243Z",
               "EditorCaption": ""
             },
             {
@@ -67,65 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LineItem.cs",
-              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\LineItem.cs",
-              "RelativeDocumentMoniker": "Models\\LineItem.cs",
-              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\LineItem.cs",
-              "RelativeToolTip": "Models\\LineItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T20:54:44.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LineItemsController.cs",
-              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Controllers\\LineItemsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LineItemsController.cs",
-              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Controllers\\LineItemsController.cs",
-              "RelativeToolTip": "Controllers\\LineItemsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T20:54:22.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\Request.cs",
-              "RelativeDocumentMoniker": "Models\\Request.cs",
-              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Models\\Request.cs",
-              "RelativeToolTip": "Models\\Request.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:12:54.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RequestsController.cs",
-              "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Controllers\\RequestsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RequestsController.cs",
-              "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Controllers\\RequestsController.cs",
-              "RelativeToolTip": "Controllers\\RequestsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:12:35.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:46:04.547Z",
               "EditorCaption": ""
