@@ -109,6 +109,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "prsquest_api_controllers.Controllers.LineItemsController",
+    "Method": "GetLineItemsForRequest",
+    "RelativePath": "api/LineItems/lines-for-req/{reqID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[prsquest_api_controllers.Models.LineItem, prsquest-net-web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "prsquest_api_controllers.Controllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "api/Products",
@@ -246,14 +272,34 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "prsquest_api_controllers.Models.Request",
+        "Name": "requestDTO",
+        "Type": "prsquest_api_controllers.Models.RequestCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
         "Type": "prsquest_api_controllers.Models.Request",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
+    "Method": "ReqNumGen",
+    "RelativePath": "api/Requests",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -328,21 +374,37 @@
   },
   {
     "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
-    "Method": "PostRequestCreate",
-    "RelativePath": "api/Requests/Create",
-    "HttpMethod": "POST",
+    "Method": "PutApproved",
+    "RelativePath": "api/Requests/approve/{Id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "requestDTO",
-        "Type": "prsquest_api_controllers.Models.RequestCreateDTO",
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
+    "Method": "GetRequestsReadyForReview",
+    "RelativePath": "api/Requests/list-review/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "prsquest_api_controllers.Models.Request",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[prsquest_api_controllers.Models.Request, prsquest-net-web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -351,6 +413,43 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
+    "Method": "PutDenied",
+    "RelativePath": "api/Requests/reject/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "denied",
+        "Type": "prsquest_api_controllers.Models.RejectDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
+    "Method": "PutRequestForReview",
+    "RelativePath": "api/Requests/submit-review/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "prsquest_api_controllers.Controllers.UsersController",

@@ -61,6 +61,7 @@ namespace prsquest_api_controllers.Controllers
             try
             {
                 await _context.SaveChangesAsync();
+                RecalculateRequestTotal(lineItem.RequestId);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -73,7 +74,6 @@ namespace prsquest_api_controllers.Controllers
                     throw;
                 }
             }
-
             return NoContent();
         }
 
@@ -84,6 +84,8 @@ namespace prsquest_api_controllers.Controllers
         {
             _context.LineItems.Add(lineItem);
             await _context.SaveChangesAsync();
+
+            RecalculateRequestTotal(lineItem.RequestId);
 
             return CreatedAtAction("GetLineItem", new { id = lineItem.Id }, lineItem);
         }
@@ -100,8 +102,39 @@ namespace prsquest_api_controllers.Controllers
 
             _context.LineItems.Remove(lineItem);
             await _context.SaveChangesAsync();
+            RecalculateRequestTotal(lineItem.RequestId);
 
             return NoContent();
+        }
+        //api/LineItems/lines-for-req/{reqId}
+        [HttpGet("lines-for-req/{reqID}")]
+        public async Task<ActionResult<IEnumerable<LineItem>>> GetLineItemsForRequest(int reqID)
+        {
+            var lineItems = _context.LineItems.Include(li => li.Product)
+                                              //.Include(li => li.Request)
+                                              .Where(li => li.RequestId == reqID);
+
+            return await lineItems.ToListAsync();
+            //return await _context.LineItems.ToListAsync();
+        }
+
+        private void RecalculateRequestTotal(int requestId)
+        {
+            // Insert, Update, Del has occurred
+            var request = _context.Requests.Find(requestId);
+            // get all LI records for this request 
+            var lineItems = _context.LineItems.Include(li => li.Product)
+                                              .Where(li => li.RequestId == requestId);
+            // loop through all LI's and sum all ProductPrice values
+            decimal sum = 0;
+            foreach (LineItem lineItem in lineItems)
+            {
+                sum += lineItem.Product.Price*lineItem.Quantity;
+            }
+            // set the sum in the request.total property
+            request.Total = sum;
+            // save that shit
+            _context.SaveChanges();
         }
 
         private bool LineItemExists(int id)
