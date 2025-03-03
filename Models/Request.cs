@@ -39,7 +39,7 @@ public partial class Request
     public string? Status { get; set; }
 
     [Column(TypeName = "decimal(10, 2)")]
-    public decimal? Total { get; set; }
+    public decimal Total { get; set; }
 
     [Column(TypeName = "datetime")]
     public DateTime SubmittedDate { get; set; }
@@ -51,7 +51,7 @@ public partial class Request
     [InverseProperty("Request")]
     public virtual ICollection<LineItem> LineItems { get; set; } = new List<LineItem>();
 
-    [ForeignKey("UserId")]
-    [InverseProperty("Requests")]
+    //[ForeignKey("UserId")]
+    //[InverseProperty("Requests")]
     public virtual User User { get; set; } = null!;
 }

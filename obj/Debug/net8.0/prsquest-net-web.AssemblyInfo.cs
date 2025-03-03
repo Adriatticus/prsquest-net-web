@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("prsquest-net-web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d06c304c6235b018d7df11badd26d2e4a37f861")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+254a0dad3740f4f9a4f2279f55deae8acdcb639a")]
+>>>>>>> 61f57eb7e86cff1696187e4291749f8cd07213bd
 [assembly: System.Reflection.AssemblyProductAttribute("prsquest-net-web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("prsquest-net-web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
