@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using prsquest_api_controllers.Models;
 
@@ -76,7 +77,6 @@ namespace prsquest_api_controllers.Controllers
         }
 
         // POST: api/Requests
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Request>> PostRequest(Request request)
         {
@@ -103,13 +103,46 @@ namespace prsquest_api_controllers.Controllers
         }
 
         // POST: api/Requests/Create
-        [HttpPost]
-        public async Task<ActionResult<Request>> PostRequestCreate(RequestCreateDTO request)
+        [HttpPost("Create")]
+        public async Task<ActionResult<Request>> PostRequestCreate(RequestCreateDTO requestDTO)
         {
-            _context.Requests.Add(request);
+            Request need = new Request();
+            need.RequestNumber = "RyyMMdd####";
+            need.Total = 0.0m;
+            need.SubmittedDate = DateTime.Now;
+            need.Status = "NEW";
+            need.UserId = requestDTO.UserId;
+            need.DateNeeded = requestDTO.DateNeeded;
+            need.DeliveryMode = requestDTO.DeliveryMode;
+            need.Justification = requestDTO.Justification;
+            need.Description = requestDTO.Description;
+
+
+            _context.Requests.Add(need);
+            
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetRequest", new { id = request.Id }, request);
+            return CreatedAtAction("GetRequest", new { id = need.Id }, need);
+        }
+
+        public async string ReqNumGen()
+        {
+            //"RyyMMdd####"
+            string requestNum = "R";
+            requestNum += DateTime.Now.ToString("yyMMdd");
+            var prefixn = _context.Requests.Where(r => r.RequestNumber.StartsWith(requestNum)).LastOrDefault();
+            if (prefixn != null)
+            {
+                string lastFour = prefixn.RequestNumber.Substring(-1, 4);
+            }
+            else
+            {
+                requestNum += "0001";
+            }
+            // result of prefixn and append an incrimenting number to it
+            //string fourNum
+
+            return requestNum;
         }
 
         private bool RequestExists(int id)

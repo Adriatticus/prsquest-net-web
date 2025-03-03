@@ -39,7 +39,7 @@ public partial class Request
     public string? Status { get; set; }
 
     [Column(TypeName = "decimal(10, 2)")]
-    public decimal? Total { get; set; }
+    public decimal Total { get; set; }
 
     [Column(TypeName = "datetime")]
     public DateTime SubmittedDate { get; set; }
@@ -53,5 +53,5 @@ public partial class Request
 
     //[ForeignKey("UserId")]
     //[InverseProperty("Requests")]
-    public virtual User? User { get; set; } = null!;
+    public virtual User User { get; set; } = null!;
 }

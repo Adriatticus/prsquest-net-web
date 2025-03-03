@@ -327,6 +327,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
+    "Method": "PostRequestCreate",
+    "RelativePath": "api/Requests/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDTO",
+        "Type": "prsquest_api_controllers.Models.RequestCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "prsquest_api_controllers.Models.Request",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "prsquest_api_controllers.Controllers.UsersController",
     "Method": "GetUsers",
     "RelativePath": "api/Users",
