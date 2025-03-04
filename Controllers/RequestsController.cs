@@ -79,10 +79,10 @@ namespace prsquest_api_controllers.Controllers
         }
 
             // POST: api/Requests/Create
-        [HttpPost("create")]
+        [HttpPost]
         public async Task<ActionResult<Request>> PostRequest(RequestCreateDTO requestDTO)
         {
-
+            //string RequestStatus = "";
             Request need = new Request();
             need.UserId = requestDTO.UserId;
             need.RequestNumber = await ReqNumGen();
@@ -91,6 +91,7 @@ namespace prsquest_api_controllers.Controllers
             need.DateNeeded = requestDTO.DateNeeded;
             need.DeliveryMode = requestDTO.DeliveryMode;
             need.Status = "NEW";
+            //need.Status = RequestStatus.NEW;
             need.Total = 0.0m;
             need.SubmittedDate = DateTime.Now;
 
