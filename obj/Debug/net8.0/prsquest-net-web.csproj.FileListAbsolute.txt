@@ -566,7 +566,6 @@ C:\repos\WTF\obj\Debug\net8.0\prsquest-net-web.genruntimeconfig.cache
 C:\repos\WTF\obj\Debug\net8.0\ref\prsquest-net-web.dll
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\bin\Debug\net8.0\appsettings.Development.json
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\bin\Debug\net8.0\appsettings.json
-C:\repos\prsquest-repos\prsquest\prsquest-net-web\bin\Debug\net8.0\prsquest-net-web.staticwebassets.endpoints.json
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\bin\Debug\net8.0\prsquest-net-web.exe
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\bin\Debug\net8.0\prsquest-net-web.deps.json
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\bin\Debug\net8.0\prsquest-net-web.runtimeconfig.json
@@ -833,14 +832,11 @@ C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\scopedcss\bundle\prsquest-net-web.styles.css
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets.build.json
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets.development.json
-C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets\msbuild.prsquest-net-web.Microsoft.AspNetCore.StaticWebAssets.props
-C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets\msbuild.prsquest-net-web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets\msbuild.build.prsquest-net-web.props
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.prsquest-net-web.props
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.prsquest-net-web.props
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets.pack.json
-C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest.E6B6DAF8.Up2Date
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-web.dll
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\refint\prsquest-net-web.dll
