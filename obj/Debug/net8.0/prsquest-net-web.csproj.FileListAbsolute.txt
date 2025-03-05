@@ -844,3 +844,7 @@ C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-web.genruntimeconfig.cache
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\ref\prsquest-net-web.dll
 C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\prsquest-net-web.sourcelink.json
+C:\repos\prsquest-repos\prsquest\prsquest-net-web\bin\Debug\net8.0\prsquest-net-web.staticwebassets.endpoints.json
+C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets\msbuild.prsquest-net-web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\repos\prsquest-repos\prsquest\prsquest-net-web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

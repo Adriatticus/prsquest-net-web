@@ -82,7 +82,7 @@ namespace prsquest_api_controllers.Controllers
         [HttpPost]
         public async Task<ActionResult<Request>> PostRequest(RequestCreateDTO requestDTO)
         {
-            //string RequestStatus = "";
+            
             Request need = new Request();
             need.UserId = requestDTO.UserId;
             need.RequestNumber = await ReqNumGen();
@@ -90,8 +90,8 @@ namespace prsquest_api_controllers.Controllers
             need.Justification = requestDTO.Justification;
             need.DateNeeded = requestDTO.DateNeeded;
             need.DeliveryMode = requestDTO.DeliveryMode;
-            need.Status = "NEW";
-            //need.Status = RequestStatus.NEW;
+            //need.Status = "NEW";
+            need.Status = RequestStatus.NEW;
             need.Total = 0.0m;
             need.SubmittedDate = DateTime.Now;
 
@@ -132,11 +132,11 @@ namespace prsquest_api_controllers.Controllers
 
             if (request.Total <= 50)
             {
-                request.Status = "APPROVED";
+                request.Status = RequestStatus.APPROVED;
             }
             else
             {
-                request.Status = "REVIEW";
+                request.Status = RequestStatus.REVIEW;
             }
 
             request.SubmittedDate = DateTime.Now;
@@ -183,7 +183,7 @@ namespace prsquest_api_controllers.Controllers
                 return NotFound();
             }
 
-            request.Status = "APPROVED";
+            request.Status = RequestStatus.APPROVED;
 
             _context.Entry(request).State = EntityState.Modified;
 
@@ -217,7 +217,7 @@ namespace prsquest_api_controllers.Controllers
                 return NotFound();
             }
 
-            request.Status = "REJECTED";
+            request.Status = RequestStatus.REJECTED;
             request.ReasonForRejection = denied.ReasonForRejection;
 
             _context.Entry(request).State = EntityState.Modified;

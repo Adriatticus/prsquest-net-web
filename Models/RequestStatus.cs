@@ -2,17 +2,17 @@
 {
     public class RequestStatus
     {
-        public string NEW   { get; set; }
-        public string REVIEW { get; set; }
-        public string APPROVED { get; set; }
-        public string REJECTED { get; set; }
+        public static string NEW = "NEW";
+        public static string REVIEW = "REVIEW";
+        public static string APPROVED = "APPROVED";
+        public static string REJECTED = "REJECTED";
 
-        public RequestStatus ()
-        {
-            NEW = "NEW";
-            REVIEW = "REVIEW";
-            APPROVED = "APPROVED";
-            REJECTED = "REJECTED";
-        }
+        //public RequestStatus ()
+        //{
+        //    NEW = "NEW";
+        //    REVIEW = "REVIEW";
+        //    APPROVED = "APPROVED";
+        //    REJECTED = "REJECTED";
+        //}
     }
 }

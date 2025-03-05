@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "RR/vZYzTYcuqujwS3J+Qx2d8209UjZN3xe4yyW4C6+M=",
+  "Hash": "HbbvkeTzxXGqT2wHn1J+SZJXV7NBGNYWNy4bql/e2Gg=",
   "Source": "prsquest-net-web",
   "BasePath": "_content/prsquest-net-web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

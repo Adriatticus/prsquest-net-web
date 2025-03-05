@@ -265,6 +265,32 @@
   },
   {
     "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
+    "Method": "PostRequest",
+    "RelativePath": "api/Requests",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDTO",
+        "Type": "prsquest_api_controllers.Models.RequestCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "prsquest_api_controllers.Models.Request",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
     "Method": "ReqNumGen",
     "RelativePath": "api/Requests",
     "HttpMethod": "",
@@ -361,32 +387,6 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
-    "Method": "PostRequest",
-    "RelativePath": "api/Requests/create",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDTO",
-        "Type": "prsquest_api_controllers.Models.RequestCreateDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "prsquest_api_controllers.Models.Request",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   },
   {
     "ContainingType": "prsquest_api_controllers.Controllers.RequestsController",
