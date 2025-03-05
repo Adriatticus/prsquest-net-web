@@ -54,8 +54,7 @@
               "RelativeToolTip": "Models\\UserLoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T08:09:59.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T08:09:59.739Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Models\\RejectDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T08:08:57.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T08:08:57.635Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Models\\LineItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T05:58:43.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T05:58:43.241Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "Controllers\\LineItemsController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAA5wIMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:55:23.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T04:55:23.489Z"
             },
             {
               "$type": "Document",
@@ -106,8 +102,7 @@
               "RelativeToolTip": "Models\\Request.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T06:47:37.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T06:47:37.341Z"
             },
             {
               "$type": "Document",
@@ -117,7 +112,7 @@
               "RelativeDocumentMoniker": "Controllers\\RequestsController.cs",
               "ToolTip": "C:\\repos\\prsquest-repos\\prsquest\\prsquest-net-web\\Controllers\\RequestsController.cs",
               "RelativeToolTip": "Controllers\\RequestsController.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAgwNgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwMUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T06:29:38.231Z",
               "EditorCaption": ""
